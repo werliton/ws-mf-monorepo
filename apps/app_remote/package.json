@@ -1,5 +1,5 @@
 {
-  "name": "app-provider",
+  "name": "app_remote",
   "private": true,
   "version": "0.0.0",
   "type": "module",

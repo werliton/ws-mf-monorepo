@@ -1,5 +1,5 @@
 {
-  "name": "app-host",
+  "name": "app_host",
   "private": true,
   "version": "0.0.0",
   "type": "module",
