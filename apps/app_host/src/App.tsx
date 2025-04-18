@@ -3,6 +3,7 @@ const Button = lazy(() => import("app_remote/button"));
 
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import mfLogo from "./assets/mf.png";
 import "./App.css";
 
 function App() {
@@ -15,16 +16,19 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={mfLogo} className="logo" alt="Module Federation logo" />
+        </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Vite + React + Module Federation</h1>
       <div className="card">
         <p>(Consumindo app federado)</p>
         <Suspense fallback={<div>Carregando...</div>}>
-          <Button />
+          <Button text="Arrocha" />
         </Suspense>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Feito com 💻 por <a href="https://github.com/werliton">@werliton</a>
       </p>
     </>
   );
